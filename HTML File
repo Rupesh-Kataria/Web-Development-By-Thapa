@@ -1,0 +1,121 @@
+<html>
+<head>
+    <title>HTML CSS COURSE</title>
+</head>
+<body>
+<h1 style ="color:#0063B2FF;background-color:#9CC3D5FF;text-align: center;padding:10 10;">Welcome to html css course 2020</h1>
+
+<!-- <h2>Welcome to html css course 2020</h2>
+<h3>Welcome to html css course 2020</h3>
+<h4>Welcome to html css course 2020</h4>
+<h5>Welcome to html css course 2020</h5>
+<h6>Welcome to html css course 2020</h6> -->
+<p>
+	I guarantee you this is the best video
+	on the html course.
+</p>
+<p> My name is <b> <mark> vinod bahadur thapa </mark> </b> .
+	I am a 
+	<i> <del> <u> full stack developer </u> </del> </i> .</p>
+
+	  <p> H<sub>2</sub>O </p>
+<p>X<sup>2</sup>+Y<sup>2</sup> </p>
+<hr> </hr>
+<button>
+
+<a href="https://flatuicolors.com/palette/gb"  target ="_blank" style ="text-decoration: none;" title="click to visit thapa page">ThapaTechnical</a>
+</button>
+
+<br> </br>
+
+  <!--  HTML Images -->
+ <img src="download.jpeg" width="400" height ="200" title="html5css3completevideo" alt ="htmlcsspic">
+
+<br><br><br><br><br>
+<!-- HTML Tables -->
+
+<center>
+<table border="1" cellspacing="0" cellpadding="10" style ="text-align: center;">
+ 	<tr> 
+ 		<th>YoutubeName</th>
+ 		<th>Topic</th>
+ 		<th>Degree</th>
+ 		<th>subscribers</th>
+ 	</tr>
+ 	<tr> 
+ 		<td>ThapaTechnical</td>
+ 		<td>Programming</td>
+ 		<td>MCS</td>
+ 		<td>100k</td>
+ 	</tr>
+ 	<tr> 
+ 		<td>ThapaTechnical</td>
+ 		<td>Programming</td>
+ 		<td>MCS</td>
+ 		<td>100k</td>
+ 	</tr>
+ 	<tr> 
+ 		<td>ThapaTechnical</td>
+ 		<td>Programming</td>
+ 		<td>MCS</td>
+ 		<td>100k</td>
+ 	</tr>
+ </table>
+</center>
+
+ <!-- HTML List -->
+
+<ul type="square">
+   <li>Laptop</li>
+   <li>Bag</li>
+   <li>Pen</li>
+   <li>Notebook</li>
+</ul>
+
+<ol type="1" start="5">    <!-- WE also give type like this type="a" ,type="A" -->
+	<li>Arjun</li>
+	<li>Binita</li>
+	<li>Chris</li>
+	<li>Don</li>
+</ol>
+<br><br>
+<h1>Contact Forms </h1>
+
+<form>
+	<label>Username:</label><br><br>
+	<input type = "text" name="username"><br><br>
+
+	<label>password:</label><br>
+	<input type="password" name="password" placeholder="Enter your password"><br><br>
+
+	<label>EmailId:</label><br>
+	<input type="" name="email"><br><br>
+
+    <label>Mobile No:</label><br>
+    <input type="text" name="mobile"><br><br>
+    
+    <select>
+    	<option>Select ur Plan </option>
+    	<option value="personal">Personal</option>
+    	<option value ="business">Business</option>
+    	<option value="premiu">Premium</option>
+
+    </select>
+    <br><br>
+    <textarea cols="30" rows="5"> </textarea> <br><br>
+
+    <p>Select your Gender</p>
+    <input type="radio" name="gender">Male
+    <input type ="radio" name="gender">Female <br><br>
+
+    <p>Please read all the instruction carefully </p>
+    <input type="checkbox" name="">Yes,I read it all.<br><br>
+    <input type ="submit" name="submit" value ="Submit this">
+
+
+</form>
+
+<br><br><br><br><br>
+
+</body>
+</html>
