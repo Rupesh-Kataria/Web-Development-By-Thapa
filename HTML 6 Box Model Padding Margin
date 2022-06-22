@@ -1,0 +1,40 @@
+html
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="style4.css"
+</head>
+<body>
+<div class="boxmodel">
+	<label>Username</label>
+	<input type="text" name="">
+</div>
+</body>
+</html>	
+
+
+
+css
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.boxmodel{
+	width: 400px;
+	height: 400px;
+	background-color: red;
+	padding-left: 0;
+}
+
+input{
+	/*padding-left: 20px;
+	padding-top: 20px;*/
+	/*padding: 5px 5px 5px 5px; #it show top right left bottom*/
+	padding: 5px;
+	margin-top: 50px;
+	margin-left: 20px;
+}
