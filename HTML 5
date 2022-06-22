@@ -1,0 +1,38 @@
+HTML
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="style4.css"
+</head>
+<body>
+	<ul>
+       <li>Home</li>
+       <li>Home</li>
+       <li>Home</li>
+	</ul>
+
+	<ol>
+		<li>About</li>
+		<li>About</li>
+		<li>About</li>
+	</ol>
+</body>
+</html>	
+
+
+
+CSS
+
+/**{
+	margin: 0;
+	padding: 0;
+}
+*/
+ul{
+	list-style-type: square;
+}
+ol{
+	list-style-type: upper-roman;
+}
