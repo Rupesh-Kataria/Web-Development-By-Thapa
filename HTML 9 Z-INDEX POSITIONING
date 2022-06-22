@@ -1,0 +1,62 @@
+html
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="style4.css"
+</head>
+<body>
+
+<div class="father">
+	<div class="child1">thapa</div>
+	<div class="child2">thapa</div>
+	<div  class="child3">thapa</div>
+	<div class="child4">thapa</div>
+</div>
+</body>
+</html>	
+
+
+css
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.father{
+	width: 600px;
+	height: 400px;
+	background-color: red;
+	position: relative;
+}
+.child1{
+	width: 100px;
+	height: 60px;
+	background-color: green;
+	position: absolute;
+}
+
+.child2{
+	width: 100px;
+	height: 60px;
+	background-color: blue;
+	position: absolute;
+	z-index: 1;
+}
+
+.child3{
+	width: 100px;
+	height: 60px;
+	background-color: yellow;
+	position: absolute;
+	z-index: 2;
+}
+
+.child4{
+	width: 100px;
+	height: 60px;
+	background-color: pink;
+	position: absolute;
+}
